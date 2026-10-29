@@ -1,0 +1,10 @@
+<Student> 
+    <firstname>Kishore</firstname>
+    <lastname>KK</lastname>
+    <dob>01-10-10</dob>
+    <address>
+        <doorNo>00</doorNo>
+        <street>washway</street>
+        <city>Manchester</city>
+    </address>
+</Student>

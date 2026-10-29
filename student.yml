@@ -1,0 +1,18 @@
+---
+- firstname: Kishore # - is for list
+  lastname: KK
+  dob: 01-03-05
+  addresses:
+    - type: permanent
+      doorNo: 1
+      street: Washway
+      city: Manchester
+    - type: Temparory
+      doorNo: 2
+      street: Washway
+      city: Manchester
+  skills: null
+  os: Linux
+  IDE: VSCode
+  Iac: Terraform
+  CM: Ansible

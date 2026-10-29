@@ -1,0 +1,12 @@
+{
+    "firstname": "Kishore",
+    "lastname": "KK",
+    "dob": "01-01-10",
+    "street": "washway",
+    "city": "Manchester",
+    "skills": {
+        "os": "Linux",
+        "IAC": "terraform",
+        "CM": "Ansible"
+    }
+}
