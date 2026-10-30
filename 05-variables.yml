@@ -1,0 +1,17 @@
+- name: demo on task level variables
+  hosts: local
+  connection: local
+  vars:
+    property: "100 houses"
+  
+  tasks:
+  - name: print vars 
+    debug:
+     msg: "Hi I got {{ property }} from my father "
+
+  - name: print vars again one more time
+    vars:
+      property: "50 houses" 
+    debug:
+     msg: "Hi I got {{ property }} from my father "
+
