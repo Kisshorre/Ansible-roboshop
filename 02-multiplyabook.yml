@@ -1,0 +1,25 @@
+- name: Play cricket 
+  hosts: local
+  connection: local
+  tasks:
+  - name: paly cricket and game 1
+    debug:
+     msg: "Hello cricket Team, how team1 is playing"
+
+  - name: paly cricket and game 2
+    debug:
+     msg: "Hello cricket Team, how team2 is playing"
+
+- name: Play football
+  hosts: local
+  connection: local
+  tasks:
+  - name: play football and game1
+    debug:
+     msg: "hello football team,how team Manchester is playing"
+
+  - name: play football and game2
+    debug:
+     msg: "hello Liverpool team"
+
+
